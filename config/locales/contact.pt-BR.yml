@@ -1,0 +1,5 @@
+pt-BR:
+  placeholder:
+    name: Nome
+    email: Endereço de Email
+    message: Escreva sua mensagem
