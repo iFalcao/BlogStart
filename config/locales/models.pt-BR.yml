@@ -1,0 +1,16 @@
+pt-BR:
+  activerecord:
+    models:
+      post:
+        one: Artigo
+        other: Artigos
+      category:
+        one: Categoria
+        other: Categorias
+    attributes:
+      post:
+        title: Título
+        description: Descrição
+        body: Conteúdo
+      category:
+        name: Descrição

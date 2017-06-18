@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 puts "Criando artigos fake"
-10.times do 
+4.times do 
     Post.create(title: Faker::Lorem.sentence,
         description: Faker::Lorem.sentence([2,3,4].sample),
         body: Faker::Lorem.paragraphs([2,3,4].sample)
