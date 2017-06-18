@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'posts/index'
+
   get 'home/index'
 
   root 'clean_blogs#index'
