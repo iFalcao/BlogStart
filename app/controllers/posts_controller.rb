@@ -6,12 +6,13 @@ class PostsController < ApplicationController
   end
 
   def show
+    @categories = Category.all
   end
-
 
   protected
 
     def set_post
       @post = Post.find(params[:id])
     end
+
 end
