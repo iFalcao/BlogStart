@@ -14,6 +14,8 @@ gem 'jquery-rails'
 source 'https://rails-assets.org' do
   # Bootstrap
   gem 'rails-assets-bootstrap'
+  # Tether
+  gem 'rails-assets-tether'
 end
 
 # Use sqlite3 as the database for Active Record

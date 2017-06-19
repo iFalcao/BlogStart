@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  get 'categories/index'
-
-  get 'categories/show'
 
   root 'clean_blogs#index'
   get  'about'    => 'clean_blogs#about'

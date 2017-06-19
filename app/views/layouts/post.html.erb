@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>Ícaro Falcão | <%= yield(:title) %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'post', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-    <!-- Temporary navbar container fix -->
+    <%= javascript_include_tag 'post', 'data-turbolinks-track': 'reload' %>
+	
+	<!-- Temporary navbar container fix -->
     <style>
-    	body {
-		    padding-top: 54px;
-		}
-
-		@media (min-width: 992px) {
-		    body {
-		        padding-top: 56px;
-		    }
-		}
-
 	    .navbar-toggler {
 	        z-index: 1;
 	    }
@@ -28,8 +20,17 @@
 	            width: 100%;
 	        }
 	    }
-    </style>
 
+	    body {
+		    padding-top: 54px;
+		}
+
+		@media (min-width: 992px) {
+		    body {
+		        padding-top: 56px;
+		    }
+		}
+    </style>
   </head>
 
   <body>
